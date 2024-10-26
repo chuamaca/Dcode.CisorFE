@@ -1,0 +1,31 @@
+﻿@page "/customer"
+
+@using Dcode.CisorFE.Client.Implement
+@using Dcode.Pos.Application.DataBase.Customer.Queries.GetAllCustomers
+@using Dcode.CisorFE.Client
+
+<h3>Clientes</h3>
+
+@if (customers == null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <ul>
+        @foreach (var customer in customers)
+        {
+            <li>@customer.FullName</li>
+        }
+    </ul>
+}
+
+@code {
+    @inject CustomerServiceClient _customerService
+    private List<GetAllCustomerModel> customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        customers = await _customerService.GetAllCustomersAsync();
+    }
+}

@@ -1,11 +1,18 @@
+using Dcode.CisorFE;
 using Dcode.CisorFE.Client.Pages;
 using Dcode.CisorFE.Components;
 using Dcode.CisorFE.Components.Account;
 using Dcode.CisorFE.Data;
+using Dcode.Pos.Application;
+using Dcode.Pos.Common;
+using Dcode.Pos.External;
+using Dcode.Pos.Persistence;
+using Dcode.Pos.Application.DataBase.Customer.Queries.GetAllCustomers;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MudBlazor.Services;
+using Dcode.Pos.Persistence.DataBase;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,10 +23,19 @@ builder.Services.AddMudServices();
 builder.Services.AddRazorComponents()
     .AddInteractiveWebAssemblyComponents();
 
+builder.Services
+    .AddCommon()
+    .AddApplication()
+    .AddExternal(builder.Configuration)
+    .AddPersistence(builder.Configuration);
+
+
 builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
 builder.Services.AddScoped<AuthenticationStateProvider, PersistingServerAuthenticationStateProvider>();
+builder.Services.AddScoped<IGetAllCustomerQuery, GetAllCustomerQuery>();
+
 
 builder.Services.AddAuthorization();
 builder.Services.AddAuthentication(options =>
@@ -29,9 +45,18 @@ builder.Services.AddAuthentication(options =>
     })
     .AddIdentityCookies();
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("SQLConnectionString") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
+
+builder.Services.AddDbContext<DataBaseService>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SQLConnectionString"));
+});
+
+
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
@@ -40,6 +65,7 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
     .AddDefaultTokenProviders();
 
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+
 
 var app = builder.Build();
 
@@ -58,8 +84,12 @@ else
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
 app.UseStaticFiles();
 app.UseAntiforgery();
+
+
+
 
 app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
@@ -67,5 +97,6 @@ app.MapRazorComponents<App>()
 
 // Add additional endpoints required by the Identity /Account Razor components.
 app.MapAdditionalIdentityEndpoints();
+
 
 app.Run();

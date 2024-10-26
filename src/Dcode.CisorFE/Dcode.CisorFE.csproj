@@ -10,6 +10,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Dcode.CisorFE.Client\Dcode.CisorFE.Client.csproj" />
+    <ProjectReference Include="..\Dcode.Pos.Application\Dcode.Pos.Application.csproj" />
+    <ProjectReference Include="..\Dcode.Pos.Common\Dcode.Pos.Common.csproj" />
+    <ProjectReference Include="..\Dcode.Pos.External\Dcode.Pos.External.csproj" />
+    <ProjectReference Include="..\Dcode.Pos.Persistence\Dcode.Pos.Persistence.csproj" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.*" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.*" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.*" />
