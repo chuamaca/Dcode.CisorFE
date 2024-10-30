@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE\\Dcode.CisorFE.csproj": {}
+    "H:\\OTRO\\src\\Dcode.CisorFE\\Dcode.CisorFE.csproj": {}
   },
   "projects": {
-    "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj": {
+    "H:\\OTRO\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj",
+        "projectUniqueName": "H:\\OTRO\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj",
         "projectName": "Dcode.CisorFE.Client",
-        "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj",
+        "projectPath": "H:\\OTRO\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj",
         "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-        "outputPath": "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE.Client\\obj\\",
+        "outputPath": "H:\\OTRO\\src\\Dcode.CisorFE.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -27,15 +29,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://packages.nuget.org/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj"
               }
             }
           }
@@ -70,13 +71,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.10, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )",
+              "version": "[8.0.10, )",
               "autoReferenced": true
             },
             "MudBlazor": {
@@ -98,7 +99,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.8, 8.0.8]"
+              "version": "[8.0.10, 8.0.10]"
             }
           ],
           "frameworkReferences": {
@@ -106,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -115,22 +116,24 @@
         }
       }
     },
-    "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE\\Dcode.CisorFE.csproj": {
+    "H:\\OTRO\\src\\Dcode.CisorFE\\Dcode.CisorFE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE\\Dcode.CisorFE.csproj",
+        "projectUniqueName": "H:\\OTRO\\src\\Dcode.CisorFE\\Dcode.CisorFE.csproj",
         "projectName": "Dcode.CisorFE",
-        "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE\\Dcode.CisorFE.csproj",
+        "projectPath": "H:\\OTRO\\src\\Dcode.CisorFE\\Dcode.CisorFE.csproj",
         "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-        "outputPath": "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE\\obj\\",
+        "outputPath": "H:\\OTRO\\src\\Dcode.CisorFE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -138,27 +141,26 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://packages.nuget.org/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj"
+              "H:\\OTRO\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.CisorFE.Client\\Dcode.CisorFE.Client.csproj"
               },
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj"
               },
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj"
               },
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj"
               },
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj"
               }
             }
           }
@@ -205,6 +207,18 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.*, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.22, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
@@ -226,26 +240,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
+    "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj",
+        "projectUniqueName": "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj",
         "projectName": "Dcode.Pos.Application",
-        "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj",
+        "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj",
         "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-        "outputPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\obj\\",
+        "outputPath": "H:\\OTRO\\src\\Dcode.Pos.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -253,18 +269,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://packages.nuget.org/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj"
               },
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj"
               }
             }
           }
@@ -329,26 +344,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj": {
+    "H:\\OTRO\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj",
+        "projectUniqueName": "H:\\OTRO\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj",
         "projectName": "Dcode.Pos.Common",
-        "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj",
+        "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Common\\Dcode.Pos.Common.csproj",
         "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-        "outputPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Common\\obj\\",
+        "outputPath": "H:\\OTRO\\src\\Dcode.Pos.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -356,7 +373,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://packages.nuget.org/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -401,26 +417,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj": {
+    "H:\\OTRO\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj",
+        "projectUniqueName": "H:\\OTRO\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj",
         "projectName": "Dcode.Pos.Domain",
-        "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj",
+        "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj",
         "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-        "outputPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\obj\\",
+        "outputPath": "H:\\OTRO\\src\\Dcode.Pos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -428,7 +446,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://packages.nuget.org/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -467,26 +484,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dcode.CisorFE\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj": {
+    "H:\\OTRO\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj",
+        "projectUniqueName": "H:\\OTRO\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj",
         "projectName": "Dcode.Pos.External",
-        "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj",
+        "projectPath": "H:\\OTRO\\src\\Dcode.Pos.External\\Dcode.Pos.External.csproj",
         "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-        "outputPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.External\\obj\\",
+        "outputPath": "H:\\OTRO\\src\\Dcode.Pos.External\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -494,18 +513,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://packages.nuget.org/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj"
               },
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj"
               }
             }
           }
@@ -562,26 +580,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj": {
+    "H:\\OTRO\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj",
+        "projectUniqueName": "H:\\OTRO\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj",
         "projectName": "Dcode.Pos.Persistence",
-        "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj",
+        "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Persistence\\Dcode.Pos.Persistence.csproj",
         "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-        "outputPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Persistence\\obj\\",
+        "outputPath": "H:\\OTRO\\src\\Dcode.Pos.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -589,18 +609,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://packages.nuget.org/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Application\\Dcode.Pos.Application.csproj"
               },
-              "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj": {
-                "projectPath": "D:\\Dcode.CisorFE\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj"
+              "H:\\OTRO\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj": {
+                "projectPath": "H:\\OTRO\\src\\Dcode.Pos.Domain\\Dcode.Pos.Domain.csproj"
               }
             }
           }
@@ -657,7 +676,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

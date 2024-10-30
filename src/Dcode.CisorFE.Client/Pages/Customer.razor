@@ -1,8 +1,8 @@
 ﻿@page "/customer"
-
 @using Dcode.CisorFE.Client.Implement
 @using Dcode.Pos.Application.DataBase.Customer.Queries.GetAllCustomers
 @using Dcode.CisorFE.Client
+@inject CustomerServiceClient _customerService
 
 <h3>Clientes</h3>
 
@@ -21,7 +21,7 @@ else
 }
 
 @code {
-    @inject CustomerServiceClient _customerService
+
     private List<GetAllCustomerModel> customers;
 
     protected override async Task OnInitializedAsync()

@@ -13,11 +13,15 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MudBlazor.Services;
 using Dcode.Pos.Persistence.DataBase;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add MudBlazor services
 builder.Services.AddMudServices();
+
+// Habilitar controladores
+builder.Services.AddControllers();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -64,9 +68,13 @@ builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.Requ
     .AddSignInManager()
     .AddDefaultTokenProviders();
 
-builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
+builder.Services.AddScoped<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 
-
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Mi API en Blazor Server", Version = "v1" });
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -74,6 +82,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseWebAssemblyDebugging();
     app.UseMigrationsEndPoint();
+    app.UseSwaggerUI();
 }
 else
 {
@@ -83,13 +92,13 @@ else
 }
 
 app.UseHttpsRedirection();
-
-app.UseRouting();
 app.UseStaticFiles();
+app.UseRouting();
 app.UseAntiforgery();
+app.UseAuthentication();
+app.UseAuthorization();
 
-
-
+app.MapControllers();
 
 app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
